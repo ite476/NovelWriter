@@ -1,4 +1,4 @@
-using NovelWriter.Module;
+ï»¿using NovelWriter.Module;
 using NovelWriter.Module.Extensions;
 
 namespace NovelWriter.Windows.WriteForm
@@ -10,10 +10,10 @@ namespace NovelWriter.Windows.WriteForm
             InitializeComponent();
 
             var titlesAndLimits = new (int, string)[] {
-                (500 , "¼ºÀå°úÁ¤ (300ÀÚ ÀÌ»ó 500ÀÚ ÀÌÇÏ)"),
-                (500 , "Á÷¹«µ¿±â (300ÀÚ ÀÌ»ó 500ÀÚ ÀÌÇÏ)"),
-                (500 , "»çÈ¸°æÇè ¹× È°µ¿ (300ÀÚ ÀÌ»ó 500ÀÚ ÀÌÇÏ)"),
-                (500 , "ÀÔ»ç ÈÄ Æ÷ºÎ (300ÀÚ ÀÌ»ó 500ÀÚ ÀÌÇÏ)")
+                (500 , "ì„±ì¥ê³¼ì • (300ì ì´ìƒ 500ì ì´í•˜)"),
+                (500 , "ì§ë¬´ë™ê¸° (300ì ì´ìƒ 500ì ì´í•˜)"),
+                (500 , "ì‚¬íšŒê²½í—˜ ë° í™œë™ (300ì ì´ìƒ 500ì ì´í•˜)"),
+                (500 , "ì…ì‚¬ í›„ í¬ë¶€ (300ì ì´ìƒ 500ì ì´í•˜)")
             };
 
             InitializeEditor("HRD", titlesAndLimits);

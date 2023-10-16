@@ -1,4 +1,4 @@
-using NovelWriter.Module;
+ï»¿using NovelWriter.Module;
 using NovelWriter.Module.Extensions;
 
 namespace NovelWriter.Windows.WriteForm
@@ -10,10 +10,10 @@ namespace NovelWriter.Windows.WriteForm
             InitializeComponent();
 
             var titlesAndLimits = new (int, string)[] {
-                (1000, "³Ø½¼°ú ¼±ÅÃÇÏ½Å Á÷¹«¿¡ Áö¿øÇÏ½Å µ¿±â¿Í ÀÔ»ç ÈÄ ¼ºÀå ¸ñÇ¥¸¦ ¼­¼úÇØ ÁÖ¼¼¿ä. (1,000ÀÚ)"),
-                (1000, "¼±ÅÃÇÏ½Å Á÷¹« °ü·Ã ¿ª·®À» °®Ãß±â À§ÇØ ±¸Ã¼ÀûÀ¸·Î ¾î¶°ÇÑ ÁØºñ¸¦ ÇØ¿À¼Ì´ÂÁö °æÇè°ú °á°ú¸¦ Áß½ÉÀ¸·Î ±âÀçÇØ ÁÖ¼¼¿ä. (1,000ÀÚ)"),
-                (500, "Áö¿øÇÏ½Å Á÷¹«¿Í °ü·ÃÇØ È°¿ë °¡´ÉÇÑ ½ºÅ³¼Â(±â¼ú½ºÅÃ, ÇÃ·§Æû µî)°ú °¢°¢ÀÇ È°¿ë ¼öÁØÀ» Àû¾îÁÖ¼¼¿ä. (500ÀÚ)"),
-                (0, "ÀÚÀ¯¸Þ¸ð...")
+                (1000, "ë„¥ìŠ¨ê³¼ ì„ íƒí•˜ì‹  ì§ë¬´ì— ì§€ì›í•˜ì‹  ë™ê¸°ì™€ ìž…ì‚¬ í›„ ì„±ìž¥ ëª©í‘œë¥¼ ì„œìˆ í•´ ì£¼ì„¸ìš”. (1,000ìž)"),
+                (1000, "ì„ íƒí•˜ì‹  ì§ë¬´ ê´€ë ¨ ì—­ëŸ‰ì„ ê°–ì¶”ê¸° ìœ„í•´ êµ¬ì²´ì ìœ¼ë¡œ ì–´ë– í•œ ì¤€ë¹„ë¥¼ í•´ì˜¤ì…¨ëŠ”ì§€ ê²½í—˜ê³¼ ê²°ê³¼ë¥¼ ì¤‘ì‹¬ìœ¼ë¡œ ê¸°ìž¬í•´ ì£¼ì„¸ìš”. (1,000ìž)"),
+                (500, "ì§€ì›í•˜ì‹  ì§ë¬´ì™€ ê´€ë ¨í•´ í™œìš© ê°€ëŠ¥í•œ ìŠ¤í‚¬ì…‹(ê¸°ìˆ ìŠ¤íƒ, í”Œëž«í¼ ë“±)ê³¼ ê°ê°ì˜ í™œìš© ìˆ˜ì¤€ì„ ì ì–´ì£¼ì„¸ìš”. (500ìž)"),
+                (0, "ìžìœ ë©”ëª¨...")
             };
 
             InitializeEditor("Nexon", titlesAndLimits);
